@@ -2,15 +2,15 @@ package entities;
 
 import java.util.Date;
 
-public class Cliente {
+public class Client {
 	private String name;
 	private String email;
 	private Date birthDate;
 	
-	public Cliente() {
+	public Client() {
 	}
 
-	public Cliente(String name, String email, Date birthDate) {
+	public Client(String name, String email, Date birthDate) {
 		this.name = name;
 		this.email = email;
 		this.birthDate = birthDate;
